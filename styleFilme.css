@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.cabecalho{
+    padding-left: 5%;
+    background-color: rgb(202, 19, 19);
+    height: 100px;
+    box-shadow: 0px -100px 230px 1px #fff;
+
+    display: flex;
+    align-items: center;
+    gap: 2%;
+
+}
+
+.cabecalho-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.conteudo{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+}
+
+.imagem{
+    height: 500px;
+    width: 400px;
+}
+
+.conteudo-titulo-e-detalhe{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 01%;
+}
+
+.conteudo-titulo-filme{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo-filme{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+.ano-filme{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.conteudos-detalhes-filme{
+    padding-top: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.indicacao{
+    border: 2px solid #bdbdbd;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #bdbdbd;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.detalhes{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+  
+}
+
+.sinopse-filme{
+    padding-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.frase-filme{
+    font-family:'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #bdbdbd;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.texto{
+    font-family:'Raleway', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.assitir{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-canal{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.logo-canal:hover{
+    box-shadow: 0px 0px 10px 3px rgb(162, 162, 162);
+}
+
+.bola{
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}
