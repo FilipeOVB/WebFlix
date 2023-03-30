@@ -4,4 +4,4 @@
  
  Por algum motivo o Git Hub Pages não está conseguindo acessar as imagens da pasta /image e não as exibe, algo que não acontece em meu computador. 
  
- Acesse atráves [WebFlix](https://filipeovb.github.io/webflix/)
+ Acesse atráves [WebFlix](https://filipeovb.github.io/webflix/index.html)
